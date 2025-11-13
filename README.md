@@ -1,2 +1,3 @@
 # RegistrationPage
 # RegistrationPageJs
+# RegistrationPageJs
