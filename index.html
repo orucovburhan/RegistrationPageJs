@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>REGISTRATION</h2>
+    <div>
+        <form>
+            <label for="login">Nickname</label>
+            <input pattern="^(?=.*[a-z])(?=.*[A-Z])[A-Za-z]{3,}$" title="At least 1 uppercase, 1 lowercase and at least 3 character" type="text" id="login" name="login" placeholder="Name" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            <button>Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #c0753f;
+
+}
+h2{
+    text-align: center;
+    color: white;
+}
+label{
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+html {
+    background-color: #C0A06D;
+    background-image: url('https://www.shutterstock.com/image-vector/leopard-skin-pattern-animal-leather-260nw-2525933951.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }   
+
+body {
+
+    background-repeat: repeat; 
+  }
